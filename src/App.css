@@ -65,10 +65,12 @@
   padding:4px 130px;       
 }
 
-.second-section{    
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
+.container-post{
+  display: flex !important;    
+  flex-direction: row !important;
+  flex-wrap: wrap;  
+  gap: 20px;
+  justify-content: center;  
 }
 
 .post{
@@ -78,7 +80,8 @@
   box-shadow: 5px 10px 30px gray; 
   min-height: 230px;
   display: flex;
-  flex-direction: column;   
+  flex-direction: column;
+  flex-basis: 48%;   
 }
 
 h4{
@@ -99,8 +102,8 @@ h6{
 }
 
 .mb-auto{
-  margin-bottom: auto;
-  margin-top: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .second-title{
